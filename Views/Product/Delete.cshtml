@@ -1,0 +1,128 @@
+﻿@model NguyenSyPhuc.Models.Product
+
+@{
+    ViewData["Title"] = "Xác nhận xóa sản phẩm";
+}
+
+<nav aria-label="breadcrumb" class="mb-4">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index" class="text-decoration-none"><i class="bi bi-house me-1"></i>Trang chủ</a></li>
+        <li class="breadcrumb-item"><a asp-controller="Product" asp-action="Index" class="text-decoration-none"><i class="bi bi-grid me-1"></i>Sản phẩm</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Xác nhận xóa</li>
+    </ol>
+</nav>
+
+<div class="card border-0 shadow mb-5">
+    <div class="card-header py-3" style="background: linear-gradient(135deg, #132740, #1e3a5f);">
+        <h2 class="mb-0 text-white">
+            <i class="bi bi-exclamation-triangle-fill me-2"></i>Xác nhận xóa sản phẩm
+        </h2>
+    </div>
+    <div class="card-body p-4">
+        <div class="alert alert-danger border-0 mb-4">
+            <div class="d-flex">
+                <div class="me-3">
+                    <i class="bi bi-exclamation-triangle-fill" style="font-size: 2rem;"></i>
+                </div>
+                <div>
+                    <h5 class="alert-heading">Cảnh báo!</h5>
+                    <p class="mb-0">Bạn có chắc chắn muốn xóa sản phẩm này? Hành động này không thể hoàn tác.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="product-image-container text-center p-4 rounded" style="background-color: rgba(19, 39, 64, 0.03);">
+                    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                    {
+                        string imageUrl = Model.ImageUrl;
+                        // Fix for relative paths
+                        if (!imageUrl.StartsWith("http") && !imageUrl.StartsWith("/"))
+                        {
+                            imageUrl = "/" + imageUrl;
+                        }
+
+                        <img src="@imageUrl" alt="@Model.Name" class="img-fluid rounded shadow-sm"
+                             style="max-height: 200px; object-fit: contain;"
+                             onerror="this.onerror=null; this.src=''; this.alt='Image not found'; this.parentElement.innerHTML='<div class=\'p-5 text-center\'><i class=\'bi bi-exclamation-triangle text-warning\' style=\'font-size: 4rem;\'></i><p class=\'text-muted mt-3\'>Hình ảnh không khả dụng</p><small class=\'text-muted\'>Path: @Model.ImageUrl</small></div>';" />
+                    }
+                    else
+                    {
+                        <div class="p-5 text-center">
+                            <i class="bi bi-image text-muted" style="font-size: 4rem;"></i>
+                            <p class="text-muted mt-3">Không có hình ảnh sản phẩm</p>
+                        </div>
+                    }
+                </div>
+
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                }
+            </div>
+
+            <div class="col-lg-8">
+                <div class="card border-0 h-100" style="background-color: rgba(19, 39, 64, 0.03);">
+                    <div class="card-body p-4">
+                        <h3 class="fw-bold mb-3" style="color: #132740;">@Model.Name</h3>
+
+                        <div class="mb-3 d-flex">
+                            <div class="fw-medium text-muted" style="width: 100px;">
+                                <i class="bi bi-tag me-2"></i>Danh mục:
+                            </div>
+                            <div>
+                                <span class="badge py-2 px-3" style="background-color: rgba(19, 39, 64, 0.1); color: #132740;">
+                                    @(Model.Category?.Name ?? "Chưa phân loại")
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 d-flex">
+                            <div class="fw-medium text-muted" style="width: 100px;">
+                                <i class="bi bi-currency-dollar me-2"></i>Giá:
+                            </div>
+                            <div class="fw-bold" style="color: #d4af37;">
+                                @Model.Price.ToString("N0") VNĐ
+                            </div>
+                        </div>
+
+                        @if (!string.IsNullOrEmpty(Model.Description))
+                        {
+                            <div class="mb-3">
+                                <div class="fw-medium text-muted mb-2">
+                                    <i class="bi bi-info-circle me-2"></i>Mô tả:
+                                </div>
+                                <div class="p-3 rounded" style="background-color: rgba(255, 255, 255, 0.5);">
+                                    <p class="mb-0">@Model.Description</p>
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="mb-3 d-flex">
+                                <div class="fw-medium text-muted" style="width: 100px;">
+                                    <i class="bi bi-info-circle me-2"></i>Mô tả:
+                                </div>
+                                <div>
+                                    <span class="text-muted">Không có mô tả</span>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <form asp-action="DeleteConfirmed" method="post" class="mt-4">
+            <input type="hidden" asp-for="Id" />
+            <div class="d-flex justify-content-center gap-3">
+                <a asp-action="Index" class="btn btn-light px-4 py-2 border">
+                    <i class="bi bi-arrow-left me-2"></i>Hủy bỏ
+                </a>
+                <button type="submit" class="btn btn-danger px-4 py-2">
+                    <i class="bi bi-trash me-2"></i>Xác nhận xóa
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

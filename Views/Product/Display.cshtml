@@ -1,0 +1,117 @@
+﻿@model NguyenSyPhuc.Models.Product
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<nav aria-label="breadcrumb" class="mb-4">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index" class="text-decoration-none"><i class="bi bi-house me-1"></i>Trang chủ</a></li>
+        <li class="breadcrumb-item"><a asp-controller="Product" asp-action="Index" class="text-decoration-none"><i class="bi bi-grid me-1"></i>Sản phẩm</a></li>
+        <li class="breadcrumb-item active" aria-current="page">@Model.Name</li>
+    </ol>
+</nav>
+
+<div class="card border-0 shadow mb-5">
+    <div class="card-header py-3" style="background: linear-gradient(135deg, #132740, #1e3a5f);">
+        <div class="d-flex justify-content-between align-items-center">
+            <h2 class="mb-0 text-white">
+                <i class="bi bi-info-circle me-2"></i>Chi tiết sản phẩm
+            </h2>
+            <div>
+                <a asp-action="Update" asp-route-id="@Model.Id" class="btn"
+                   style="background-color: #d4af37; color: #132740; font-weight: 500;">
+                    <i class="bi bi-pencil me-1"></i>Chỉnh sửa
+                </a>
+                <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger ms-2">
+                    <i class="bi bi-trash me-1"></i>Xóa
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body p-4">
+        <div class="row g-4">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+                <div class="product-image-container mb-3 text-center p-3 bg-light rounded">
+                    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                    {
+                        string imageUrl = Model.ImageUrl;
+
+                        <!-- Fix for relative paths - ensure images are loaded from wwwroot -->
+                        if (!imageUrl.StartsWith("http") && !imageUrl.StartsWith("/"))
+                        {
+                            imageUrl = "/" + imageUrl;
+                        }
+
+                        <img src="@imageUrl" alt="@Model.Name" class="img-fluid rounded"
+                             style="max-height: 400px; object-fit: contain;"
+                             onerror="this.onerror=null; this.src=''; this.alt='Image not found'; this.parentElement.innerHTML='<div class=\'p-5 text-center\'><i class=\'bi bi-exclamation-triangle text-warning\' style=\'font-size: 4rem;\'></i><p class=\'text-muted mt-3\'>Hình ảnh không khả dụng hoặc đường dẫn không chính xác</p><small class=\'text-muted\'>Path: @Model.ImageUrl</small></div>';" />
+                    }
+                    else
+                    {
+                        <div class="p-5 text-center">
+                            <i class="bi bi-image text-muted" style="font-size: 6rem;"></i>
+                            <p class="text-muted mt-3">Không có hình ảnh sản phẩm</p>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="product-details">
+                    <h2 class="fw-bold mb-3" style="color: #132740;">@Model.Name</h2>
+
+                    <div class="mb-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <span class="badge py-2 px-3 me-2" style="background-color: rgba(19, 39, 64, 0.1); color: #132740;">
+                                <i class="bi bi-tag-fill me-1"></i>@(Model.Category?.Name ?? "Chưa phân loại")
+                            </span>
+                            <span class="badge py-2 px-3" style="background-color: rgba(108, 117, 125, 0.1); color: #6c757d;">
+                                <i class="bi bi-hash me-1"></i>ID: @Model.Id
+                            </span>
+                        </div>
+
+                        <div class="price-box p-4 rounded mb-4" style="background-color: rgba(19, 39, 64, 0.03); border-left: 4px solid #d4af37;">
+                            <h3 class="mb-0" style="color: #d4af37;">
+                                <i class="bi bi-currency-exchange me-2"></i>
+                                <span class="fw-bold">@Model.Price.ToString("N0") VNĐ</span>
+                            </h3>
+                        </div>
+
+                        @if (!string.IsNullOrEmpty(Model.Description))
+                        {
+                            <div class="mb-4">
+                                <h5 class="fw-bold" style="color: #132740;">
+                                    <i class="bi bi-journal-text me-2"></i>Mô tả sản phẩm
+                                </h5>
+                                <div class="p-4 rounded" style="background-color: rgba(19, 39, 64, 0.03); border-left: 4px solid #132740;">
+                                    <p class="mb-0 lh-base">@Model.Description</p>
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="alert alert-warning border-0">
+                                <i class="bi bi-exclamation-triangle me-2"></i>Sản phẩm chưa có mô tả
+                            </div>
+                        }
+
+                        <div class="action-buttons mt-4 d-flex flex-wrap gap-2">
+                            <a asp-action="Index" class="btn btn-outline-secondary">
+                                <i class="bi bi-arrow-left me-1"></i>Quay lại danh sách
+                            </a>
+                            <a asp-action="Update" asp-route-id="@Model.Id" class="btn"
+                               style="background-color: #d4af37; color: #132740; font-weight: 500;">
+                                <i class="bi bi-pencil me-1"></i>Chỉnh sửa
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">
+                                <i class="bi bi-trash me-1"></i>Xóa
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

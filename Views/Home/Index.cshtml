@@ -1,0 +1,334 @@
+﻿@{
+    ViewData["Title"] = "Trang Chủ";
+}
+
+<!-- Hero Section with Carousel -->
+<section class="hero-section mb-5">
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner rounded shadow-sm" style="max-height: 500px;">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="d-block w-100" alt="Slide 1" style="object-fit: cover; height: 500px;">
+                <div class="carousel-caption d-none d-md-block" style="background: rgba(19, 39, 64, 0.6); border-radius: 10px; padding: 20px;">
+                    <h2 class="fw-bold">Sản phẩm chất lượng cao</h2>
+                    <p>Khám phá bộ sưu tập sản phẩm mới nhất của chúng tôi với chất lượng vượt trội</p>
+                    <a asp-controller="Product" asp-action="Index" class="btn px-4 py-2 mt-2"
+                       style="background-color: #d4af37; color: #fff; font-weight: 500;">
+                        Khám phá ngay
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2027&q=80" class="d-block w-100" alt="Slide 2" style="object-fit: cover; height: 500px;">
+                <div class="carousel-caption d-none d-md-block" style="background: rgba(19, 39, 64, 0.6); border-radius: 10px; padding: 20px;">
+                    <h2 class="fw-bold">Thiết kế tinh tế</h2>
+                    <p>Những sản phẩm với thiết kế tinh tế, phù hợp với mọi không gian</p>
+                    <a asp-controller="Product" asp-action="Index" class="btn px-4 py-2 mt-2"
+                       style="background-color: #d4af37; color: #fff; font-weight: 500;">
+                        Xem thêm
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="d-block w-100" alt="Slide 3" style="object-fit: cover; height: 500px;">
+                <div class="carousel-caption d-none d-md-block" style="background: rgba(19, 39, 64, 0.6); border-radius: 10px; padding: 20px;">
+                    <h2 class="fw-bold">Giá cả hợp lý</h2>
+                    <p>Sản phẩm chất lượng với mức giá phù hợp với mọi khách hàng</p>
+                    <a asp-controller="Product" asp-action="Index" class="btn px-4 py-2 mt-2"
+                       style="background-color: #d4af37; color: #fff; font-weight: 500;">
+                        Mua ngay
+                    </a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<!-- Feature Categories -->
+<section class="mb-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold mb-0" style="color: #132740;">Danh mục nổi bật</h2>
+        <a asp-controller="Product" asp-action="Index" class="text-decoration-none" style="color: #d4af37;">
+            Xem tất cả <i class="bi bi-arrow-right"></i>
+        </a>
+    </div>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 position-relative overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1563903530908-afdd155d057a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Electronics">
+                <div class="card-body p-4">
+                    <h4 class="card-title">Điện tử</h4>
+                    <p class="card-text text-muted">Sản phẩm công nghệ hiện đại với tính năng vượt trội</p>
+                    <a asp-controller="Product" asp-action="Index" class="stretched-link"></a>
+                </div>
+                <div class="category-overlay" style="position: absolute; top: 0; right: 0; background: rgba(212, 175, 55, 0.9); color: white; padding: 10px 20px; border-bottom-left-radius: 10px;">
+                    <span class="fw-bold">10+ sản phẩm</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 position-relative overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Fashion">
+                <div class="card-body p-4">
+                    <h4 class="card-title">Thời trang</h4>
+                    <p class="card-text text-muted">Thời trang phong cách, bắt kịp xu hướng</p>
+                    <a asp-controller="Product" asp-action="Index" class="stretched-link"></a>
+                </div>
+                <div class="category-overlay" style="position: absolute; top: 0; right: 0; background: rgba(212, 175, 55, 0.9); color: white; padding: 10px 20px; border-bottom-left-radius: 10px;">
+                    <span class="fw-bold">15+ sản phẩm</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 position-relative overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Home & Living">
+                <div class="card-body p-4">
+                    <h4 class="card-title">Gia dụng</h4>
+                    <p class="card-text text-muted">Sản phẩm gia dụng tiện ích cho mọi gia đình</p>
+                    <a asp-controller="Product" asp-action="Index" class="stretched-link"></a>
+                </div>
+                <div class="category-overlay" style="position: absolute; top: 0; right: 0; background: rgba(212, 175, 55, 0.9); color: white; padding: 10px 20px; border-bottom-left-radius: 10px;">
+                    <span class="fw-bold">8+ sản phẩm</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products -->
+<section class="mb-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold mb-0" style="color: #132740;">Sản phẩm nổi bật</h2>
+        <a asp-controller="Product" asp-action="Index" class="text-decoration-none" style="color: #d4af37;">
+            Xem tất cả <i class="bi bi-arrow-right"></i>
+        </a>
+    </div>
+    <div class="row g-4">
+        <!-- Product 1 -->
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm h-100 product-card">
+                <div class="position-relative">
+                    <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80" class="card-img-top" alt="Product" style="height: 200px; object-fit: cover;">
+                    <div class="position-absolute top-0 end-0 m-2">
+                        <span class="badge" style="background-color: #d4af37;">Mới</span>
+                    </div>
+                </div>
+                <div class="card-body p-4">
+                    <h5 class="card-title fw-bold mb-1">Kính mát thời trang</h5>
+                    <p class="text-muted small mb-2">Thời trang</p>
+                    <p class="fw-bold mb-3" style="color: #d4af37;">1,200,000 VNĐ</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a href="#" class="btn btn-sm btn-outline-secondary">
+                            <i class="bi bi-eye me-1"></i>Chi tiết
+                        </a>
+                        <button class="btn btn-sm text-white" style="background-color: #132740;">
+                            <i class="bi bi-cart-plus me-1"></i>Thêm vào giỏ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm h-100 product-card">
+                <div class="position-relative">
+                    <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80" class="card-img-top" alt="Product" style="height: 200px; object-fit: cover;">
+                    <div class="position-absolute top-0 end-0 m-2">
+                        <span class="badge bg-danger">-20%</span>
+                    </div>
+                </div>
+                <div class="card-body p-4">
+                    <h5 class="card-title fw-bold mb-1">Tai nghe không dây</h5>
+                    <p class="text-muted small mb-2">Điện tử</p>
+                    <p class="fw-bold mb-3" style="color: #d4af37;">2,400,000 VNĐ <small class="text-decoration-line-through text-muted ms-2">3,000,000 VNĐ</small></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a href="#" class="btn btn-sm btn-outline-secondary">
+                            <i class="bi bi-eye me-1"></i>Chi tiết
+                        </a>
+                        <button class="btn btn-sm text-white" style="background-color: #132740;">
+                            <i class="bi bi-cart-plus me-1"></i>Thêm vào giỏ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm h-100 product-card">
+                <div class="position-relative">
+                    <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1998&q=80" class="card-img-top" alt="Product" style="height: 200px; object-fit: cover;">
+                </div>
+                <div class="card-body p-4">
+                    <h5 class="card-title fw-bold mb-1">Giày thể thao</h5>
+                    <p class="text-muted small mb-2">Thời trang</p>
+                    <p class="fw-bold mb-3" style="color: #d4af37;">1,800,000 VNĐ</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a href="#" class="btn btn-sm btn-outline-secondary">
+                            <i class="bi bi-eye me-1"></i>Chi tiết
+                        </a>
+                        <button class="btn btn-sm text-white" style="background-color: #132740;">
+                            <i class="bi bi-cart-plus me-1"></i>Thêm vào giỏ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm h-100 product-card">
+                <div class="position-relative">
+                    <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1968&q=80" class="card-img-top" alt="Product" style="height: 200px; object-fit: cover;">
+                    <div class="position-absolute top-0 end-0 m-2">
+                        <span class="badge" style="background-color: #d4af37;">Bán chạy</span>
+                    </div>
+                </div>
+                <div class="card-body p-4">
+                    <h5 class="card-title fw-bold mb-1">Loa bluetooth</h5>
+                    <p class="text-muted small mb-2">Điện tử</p>
+                    <p class="fw-bold mb-3" style="color: #d4af37;">1,500,000 VNĐ</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a href="#" class="btn btn-sm btn-outline-secondary">
+                            <i class="bi bi-eye me-1"></i>Chi tiết
+                        </a>
+                        <button class="btn btn-sm text-white" style="background-color: #132740;">
+                            <i class="bi bi-cart-plus me-1"></i>Thêm vào giỏ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Promo Banner -->
+<section class="mb-5">
+    <div class="card border-0 overflow-hidden">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1607082350899-7e105aa886ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="w-100" style="height: 100%; object-fit: cover;" alt="Promo">
+            </div>
+            <div class="col-md-6" style="background: linear-gradient(135deg, #132740, #1e3a5f);">
+                <div class="card-body p-5 text-white h-100 d-flex flex-column justify-content-center">
+                    <h3 class="card-title fw-bold mb-4">Khuyến mãi đặc biệt</h3>
+                    <h2 class="fw-bold mb-3" style="color: #d4af37;">Giảm giá lên tới 50%</h2>
+                    <p class="card-text mb-4">Đừng bỏ lỡ cơ hội sở hữu những sản phẩm chất lượng với giá ưu đãi. Chỉ áp dụng trong thời gian giới hạn!</p>
+                    <a asp-controller="Product" asp-action="Index" class="btn btn-lg align-self-start"
+                       style="background-color: #d4af37; color: #132740; font-weight: 500;">
+                        Khám phá ngay
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="mb-5">
+    <div class="text-center mb-5">
+        <h2 class="fw-bold mb-3" style="color: #132740;">Tại sao chọn chúng tôi?</h2>
+        <p class="text-muted mx-auto" style="max-width: 600px;">Chúng tôi cam kết mang đến cho bạn những sản phẩm chất lượng cao với dịch vụ tốt nhất</p>
+    </div>
+    <div class="row g-4">
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                <div class="mb-3 mx-auto" style="width: 70px; height: 70px; background-color: rgba(19, 39, 64, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    <i class="bi bi-truck" style="font-size: 2rem; color: #132740;"></i>
+                </div>
+                <h5 class="fw-bold" style="color: #132740;">Giao hàng miễn phí</h5>
+                <p class="text-muted mb-0">Miễn phí giao hàng cho các đơn hàng từ 500.000 VNĐ</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                <div class="mb-3 mx-auto" style="width: 70px; height: 70px; background-color: rgba(19, 39, 64, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    <i class="bi bi-shield-check" style="font-size: 2rem; color: #132740;"></i>
+                </div>
+                <h5 class="fw-bold" style="color: #132740;">Bảo hành 12 tháng</h5>
+                <p class="text-muted mb-0">Tất cả sản phẩm đều được bảo hành chính hãng</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                <div class="mb-3 mx-auto" style="width: 70px; height: 70px; background-color: rgba(19, 39, 64, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    <i class="bi bi-arrow-repeat" style="font-size: 2rem; color: #132740;"></i>
+                </div>
+                <h5 class="fw-bold" style="color: #132740;">Đổi trả 30 ngày</h5>
+                <p class="text-muted mb-0">Dễ dàng đổi trả trong vòng 30 ngày nếu không hài lòng</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                <div class="mb-3 mx-auto" style="width: 70px; height: 70px; background-color: rgba(19, 39, 64, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    <i class="bi bi-headset" style="font-size: 2rem; color: #132740;"></i>
+                </div>
+                <h5 class="fw-bold" style="color: #132740;">Hỗ trợ 24/7</h5>
+                <p class="text-muted mb-0">Đội ngũ hỗ trợ luôn sẵn sàng giúp đỡ bạn</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="mb-5">
+    <div class="card border-0 shadow-sm" style="background: linear-gradient(135deg, rgba(19, 39, 64, 0.03), rgba(19, 39, 64, 0.08));">
+        <div class="card-body p-5 text-center">
+            <h3 class="fw-bold mb-3" style="color: #132740;">Đăng ký nhận tin</h3>
+            <p class="text-muted mb-4 mx-auto" style="max-width: 600px;">
+                Đăng ký nhận thông tin về sản phẩm mới và các chương trình khuyến mãi hấp dẫn từ chúng tôi.
+            </p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="email" class="form-control p-3" placeholder="Nhập email của bạn">
+                        <button class="btn px-4" type="button" style="background-color: #d4af37; color: #fff; font-weight: 500;">
+                            Đăng ký ngay
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .product-card {
+        transition: all 0.3s ease;
+    }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+        }
+
+    .carousel-item img {
+        filter: brightness(0.85);
+    }
+
+    .carousel-caption {
+        backdrop-filter: blur(2px);
+    }
+</style>
+
+
+@section Scripts {
+    <script>
+        // Initialize carousel
+        var myCarousel = document.querySelector('#mainCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 5000,
+            wrap: true
+        })
+    </script>
+}

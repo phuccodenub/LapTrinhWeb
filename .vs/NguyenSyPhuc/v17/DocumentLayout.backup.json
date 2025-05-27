@@ -1,0 +1,403 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub\\NguyenSyPhuc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\migrations\\20250523050144_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:migrations\\20250523050144_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|c:\\github\\nguyensyphuc\\nguyensyphuc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A6CCA4DE-49C5-4EB9-A64B-79B59272212D}|NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Views\\Category\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Update.cshtml",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Views\\Category\\Update.cshtml",
+              "RelativeToolTip": "Views\\Category\\Update.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T07:34:01.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAswDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T07:33:53.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Delete.cshtml",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Category\\Delete.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwCwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T07:33:42.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Views\\Category\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Add.cshtml",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Views\\Category\\Add.cshtml",
+              "RelativeToolTip": "Views\\Category\\Add.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCMAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T07:33:32.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:25:48.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADABAAAAAAAAAAAswE0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T07:16:07.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T07:13:35.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T07:00:11.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAAALUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T04:53:17.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAIwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:41:28.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Views\\Product\\Display.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Display.cshtml",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Views\\Product\\Display.cshtml",
+              "RelativeToolTip": "Views\\Product\\Display.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T06:56:10.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAswFcAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T06:51:24.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Add.cshtml",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "Views\\Product\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T06:49:56.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAUwCIAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:09:37.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T04:55:36.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250523050144_Initial.cs",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Migrations\\20250523050144_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250523050144_Initial.cs",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Migrations\\20250523050144_Initial.cs",
+              "RelativeToolTip": "Migrations\\20250523050144_Initial.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T05:01:45.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-23T04:53:15.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T04:59:45.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T04:55:33.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T04:55:56.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-23T04:50:20.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NguyenSyPhuc",
+              "DocumentMoniker": "C:\\GitHub\\NguyenSyPhuc\\NguyenSyPhuc.csproj",
+              "RelativeDocumentMoniker": "NguyenSyPhuc.csproj",
+              "ToolTip": "C:\\GitHub\\NguyenSyPhuc\\NguyenSyPhuc.csproj",
+              "RelativeToolTip": "NguyenSyPhuc.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-23T04:49:55.898Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

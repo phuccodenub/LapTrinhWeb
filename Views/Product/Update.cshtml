@@ -1,0 +1,151 @@
+﻿@model NguyenSyPhuc.Models.Product
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    ViewData["Title"] = "Cập nhật sản phẩm";
+}
+
+<nav aria-label="breadcrumb" class="mb-4">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index" class="text-decoration-none"><i class="bi bi-house me-1"></i>Trang chủ</a></li>
+        <li class="breadcrumb-item"><a asp-controller="Product" asp-action="Index" class="text-decoration-none"><i class="bi bi-grid me-1"></i>Sản phẩm</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Cập nhật sản phẩm</li>
+    </ol>
+</nav>
+
+<div class="card border-0 shadow mb-5">
+    <div class="card-header py-3" style="background: linear-gradient(135deg, #132740, #1e3a5f);">
+        <h2 class="mb-0 text-white">
+            <i class="bi bi-pencil-square me-2"></i>Cập nhật sản phẩm
+        </h2>
+    </div>
+    <div class="card-body p-4">
+        <form asp-action="Update" enctype="multipart/form-data" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div asp-validation-summary="All" class="text-danger mb-3 p-3 border-danger border-start border-4 rounded-3"
+                 style="background-color: rgba(220, 53, 69, 0.05);"></div>
+
+            <div class="row g-4">
+                <div class="col-md-6 mb-3">
+                    <label asp-for="Name" class="form-label fw-bold" style="color: #132740;">Tên sản phẩm</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-light"><i class="bi bi-tag"></i></span>
+                        <input asp-for="Name" class="form-control border-start-0" placeholder="Nhập tên sản phẩm" />
+                    </div>
+                    <span asp-validation-for="Name" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label asp-for="Price" class="form-label fw-bold" style="color: #132740;">Giá</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-light"><i class="bi bi-currency-dollar"></i></span>
+                        <input asp-for="Price" class="form-control border-start-0" placeholder="Nhập giá sản phẩm" />
+                        <span class="input-group-text">VNĐ</span>
+                    </div>
+                    <span asp-validation-for="Price" class="text-danger small"></span>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label asp-for="CategoryId" class="form-label fw-bold" style="color: #132740;">Danh mục</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="bi bi-diagram-3"></i></span>
+                    <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select border-start-0">
+                        <option value="">-- Chọn danh mục --</option>
+                    </select>
+                </div>
+                <span asp-validation-for="CategoryId" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-4">
+                <label asp-for="Description" class="form-label fw-bold" style="color: #132740;">Mô tả</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="bi bi-file-text"></i></span>
+                    <textarea asp-for="Description" class="form-control border-start-0"
+                              rows="4" placeholder="Nhập mô tả chi tiết về sản phẩm"></textarea>
+                </div>
+                <span asp-validation-for="Description" class="text-danger small"></span>
+            </div>
+
+            <div class="row g-4 mb-4">
+                <div class="col-md-6">
+                    <label class="form-label fw-bold" style="color: #132740;">Hình ảnh hiện tại</label>
+                    <div class="p-3 rounded text-center" style="background-color: rgba(19, 39, 64, 0.03); min-height: 200px;">
+                        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                        {
+                            string imageUrl = Model.ImageUrl;
+                            // Fix for relative paths
+                            if (!imageUrl.StartsWith("http") && !imageUrl.StartsWith("/"))
+                            {
+                                imageUrl = "/" + imageUrl;
+                            }
+
+                            <img src="@imageUrl" alt="@Model.Name"
+                                 class="img-fluid rounded shadow-sm" style="max-height: 180px; object-fit: contain;"
+                                 onerror="this.onerror=null; this.src=''; this.alt='Image not found'; this.parentElement.innerHTML='<div class=\'d-flex align-items-center justify-content-center h-100\'><div><i class=\'bi bi-exclamation-triangle text-warning\' style=\'font-size: 3rem;\'></i><p class=\'text-muted mt-2\'>Hình ảnh không khả dụng</p><small class=\'text-muted\'>Path: @Model.ImageUrl</small></div></div>';" />
+          
+                        }
+                        else
+                        {
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div>
+                                    <i class="bi bi-image text-muted" style="font-size: 3rem;"></i>
+                                    <p class="text-muted mt-2">Chưa có hình ảnh</p>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <input type="hidden" asp-for="ImageUrl" />
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label fw-bold" style="color: #132740;">Cập nhật hình ảnh</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text bg-light"><i class="bi bi-upload"></i></span>
+                        <input type="file" id="imageInput" name="imageUrl" class="form-control border-start-0" />
+                    </div>
+                    <div id="imagePreview" class="mt-2 text-center p-3 rounded"
+                         style="background-color: rgba(19, 39, 64, 0.03); min-height: 150px; display: none;">
+                        <img id="previewImg" src="#" alt="Preview" class="img-fluid rounded shadow-sm" style="max-height: 150px;" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex gap-3 mt-4">
+                <a asp-action="Index" class="btn btn-light px-4 py-2 border">
+                    <i class="bi bi-arrow-left me-2"></i>Quay lại
+                </a>
+                <button type="submit" class="btn px-4 py-2"
+                        style="background-color: #d4af37; color: #132740; font-weight: 500;">
+                    <i class="bi bi-save me-2"></i>Lưu thay đổi
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        // Image preview functionality
+        document.getElementById('imageInput').addEventListener('change', function(e) {
+            var fileInput = e.target;
+            var imagePreview = document.getElementById('imagePreview');
+            var previewImg = document.getElementById('previewImg');
+
+            if (fileInput.files && fileInput.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function(e) {
+                    previewImg.src = e.target.result;
+                    imagePreview.style.display = 'block';
+                }
+
+                reader.readAsDataURL(fileInput.files[0]);
+            } else {
+                imagePreview.style.display = 'none';
+            }
+        });
+    </script>
+}

@@ -1,0 +1,57 @@
+﻿@model NguyenSyPhuc.Models.Category
+@{
+    ViewData["Title"] = "Xác nhận xóa danh mục";
+}
+
+<nav aria-label="breadcrumb" class="mb-4">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index" class="text-decoration-none"><i class="bi bi-house me-1"></i>Trang chủ</a></li>
+        <li class="breadcrumb-item"><a asp-controller="Category" asp-action="Index" class="text-decoration-none"><i class="bi bi-diagram-3 me-1"></i>Danh mục</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Xóa danh mục</li>
+    </ol>
+</nav>
+
+<div class="card border-0 shadow mb-5">
+    <div class="card-header py-3" style="background: linear-gradient(135deg, #132740, #1e3a5f);">
+        <h2 class="mb-0 text-white">
+            <i class="bi bi-trash me-2"></i>Xóa danh mục
+        </h2>
+    </div>
+    <div class="card-body p-4">
+        @if (ViewBag.HasProducts != null && ViewBag.HasProducts == true)
+        {
+            <div class="alert alert-danger" role="alert">
+                <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                <strong>Không thể xóa danh mục này!</strong> Danh mục đang chứa sản phẩm.
+            </div>
+            <div class="d-flex gap-3 mt-4">
+                <a asp-action="Index" class="btn btn-primary px-4 py-2">
+                    <i class="bi bi-arrow-left me-2"></i>Quay lại danh sách
+                </a>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-warning" role="alert">
+                <i class="bi bi-question-circle-fill me-2"></i>
+                <strong>Xác nhận xóa:</strong> Bạn có chắc chắn muốn xóa danh mục này?
+            </div>
+            
+            <div class="p-4 bg-light rounded mb-4">
+                <h5 class="fw-bold text-primary">@Model.Name</h5>
+            </div>
+            
+            <form asp-action="Delete" method="post">
+                <input type="hidden" asp-for="Id" />
+                <div class="d-flex gap-3 mt-4">
+                    <a asp-action="Index" class="btn btn-light px-4 py-2 border">
+                        <i class="bi bi-x-lg me-2"></i>Hủy bỏ
+                    </a>
+                    <button type="submit" class="btn btn-danger px-4 py-2">
+                        <i class="bi bi-trash me-2"></i>Xác nhận xóa
+                    </button>
+                </div>
+            </form>
+        }
+    </div>
+</div>

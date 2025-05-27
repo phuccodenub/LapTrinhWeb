@@ -1,0 +1,101 @@
+﻿@model Product
+
+<div class="card shadow-sm border-0 mb-4">
+    <div class="card-header bg-gradient" style="background: linear-gradient(135deg, #132740, #1e3a5f);">
+        <h3 class="card-title text-white mb-0 py-2">
+            <i class="bi bi-plus-circle-fill me-2"></i>Tạo Sản Phẩm Mới
+        </h3>
+    </div>
+    <div class="card-body p-4">
+        <form asp-controller="Product" asp-action="Create"
+              method="post" enctype="multipart/form-data">
+
+            <div class="mb-4">
+                <label asp-for="Name" class="form-label fw-medium">Tên sản phẩm</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="bi bi-tag"></i></span>
+                    <input type="text" asp-for="Name" class="form-control border-start-0" placeholder="Nhập tên sản phẩm" />
+                </div>
+                <span asp-validation-for="Name" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-4">
+                <label asp-for="Price" class="form-label fw-medium">Giá sản phẩm</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="bi bi-currency-dollar"></i></span>
+                    <input type="text" asp-for="Price" class="form-control border-start-0" placeholder="Nhập giá sản phẩm" />
+                </div>
+                <span asp-validation-for="Price" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-4">
+                <label asp-for="Description" class="form-label fw-medium">Mô tả</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="bi bi-file-text"></i></span>
+                    <textarea rows="4" asp-for="Description" class="form-control border-start-0"
+                              placeholder="Nhập mô tả chi tiết về sản phẩm"></textarea>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label asp-for="CategoryId" class="form-label fw-medium">Danh mục</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="bi bi-diagram-3"></i></span>
+                    <select asp-for="CategoryId" asp-items="@ViewBag.Categories"
+                            class="form-select border-start-0">
+                    </select>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label asp-for="ImageUrl" class="form-label fw-medium">Hình ảnh sản phẩm</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-light"><i class="bi bi-image"></i></span>
+                    <input type="file" name="file_Image" class="form-control border-start-0" />
+                </div>
+                <div class="form-text">Chọn hình ảnh sản phẩm chất lượng cao (tỷ lệ 1:1 hoặc 4:3 để hiển thị tốt nhất)</div>
+            </div>
+
+            <div class="d-flex gap-3 mt-4">
+                <button type="submit" class="btn px-4 py-2"
+                        style="background-color: #d4af37; color: #132740; font-weight: 500;">
+                    <i class="bi bi-check-circle me-2"></i>Lưu sản phẩm
+                </button>
+                <a asp-controller="Product" asp-action="Index" class="btn btn-light px-4 py-2 border">
+                    <i class="bi bi-x-circle me-2"></i>Hủy
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Preview image functionality
+        document.querySelector('input[name="file_Image"]').addEventListener('change', function(e) {
+            const fileInput = e.target;
+            if (fileInput.files && fileInput.files[0]) {
+                const previewContainer = document.createElement('div');
+                previewContainer.className = 'mt-3';
+                previewContainer.id = 'imagePreview';
+
+                const previewImage = document.createElement('img');
+                previewImage.className = 'img-thumbnail';
+                previewImage.style.maxHeight = '200px';
+
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    previewImage.src = e.target.result;
+                }
+                reader.readAsDataURL(fileInput.files[0]);
+
+                // Remove previous preview if exists
+                const oldPreview = document.getElementById('imagePreview');
+                if (oldPreview) oldPreview.remove();
+
+                previewContainer.appendChild(previewImage);
+                fileInput.parentNode.parentNode.appendChild(previewContainer);
+            }
+        });
+    </script>
+}
