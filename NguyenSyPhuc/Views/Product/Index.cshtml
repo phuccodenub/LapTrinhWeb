@@ -1,0 +1,205 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model IEnumerable<NguyenSyPhuc.Models.Product>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+<!-- Carousel Banner -->
+<div id="carouselBanner" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+            <img src="https://picsum.photos/1200/400?random=1" class="d-block w-100" alt="Ưu đãi đặc biệt">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded py-3">
+                <h3>Sản Phẩm Chất Lượng</h3>
+                <p class="mb-0">Khám phá bộ sưu tập sản phẩm độc đáo của chúng tôi</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://picsum.photos/1200/400?random=2" class="d-block w-100" alt="Sản phẩm mới">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded py-3">
+                <h3>Thêm Sản Phẩm Mới</h3>
+                <p class="mb-0">Dễ dàng quản lý sản phẩm với giao diện thân thiện</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://picsum.photos/1200/400?random=3" class="d-block w-100" alt="Miễn phí vận chuyển">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded py-3">
+                <h3>Tùy Chỉnh Danh Mục</h3>
+                <p class="mb-0">Phân loại sản phẩm một cách khoa học</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- Title and Add button -->
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="text-primary">
+            <i class="bi bi-grid-3x3-gap-fill me-2"></i>Danh sách sản phẩm
+        </h2>
+        <p class="text-muted">Quản lý tất cả sản phẩm trong hệ thống của bạn</p>
+    </div>
+    <a asp-action="Add" class="btn btn-success">
+        <i class="bi bi-plus-circle-fill me-1"></i> Thêm sản phẩm mới
+    </a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        <div class="d-flex align-items-center">
+            <i class="bi bi-info-circle-fill me-3 fs-3"></i>
+            <div>
+                <h5 class="alert-heading">Chưa có sản phẩm nào!</h5>
+                <p class="mb-0">Hãy bắt đầu thêm sản phẩm mới để quản lý danh sách sản phẩm của bạn.</p>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <!-- Product Grid View -->
+    <div class="row g-4 mb-5">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="position-relative">
+                        @if (!string.IsNullOrEmpty(product.ImageUrl))
+                        {
+                            <img src="@Url.Content(product.ImageUrl)" class="card-img-top product-image" alt="@product.Name">
+                        }
+                        else
+                        {
+                            <div class="bg-light d-flex align-items-center justify-content-center product-image">
+                                <i class="bi bi-image text-muted fs-1"></i>
+                            </div>
+                        }
+                        @if (product.Category != null)
+                        {
+                            <span class="position-absolute top-0 end-0 badge m-2">@product.Category.Name</span>
+                        }
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">@product.Name</h5>
+                        <p class="card-text text-secondary product-description">
+                            @(string.IsNullOrEmpty(product.Description) 
+                              ? "Không có mô tả" 
+                              : (product.Description.Length > 50 ? product.Description.Substring(0, 50) + "..." : product.Description))
+                        </p>
+                        <p class="fs-5 fw-bold text-primary">@product.Price.ToString("N0") VNĐ</p>
+                        <div class="d-grid gap-2">
+                            <a asp-action="Display" asp-route-id="@product.Id" class="btn btn-outline-primary">
+                                <i class="bi bi-eye"></i> Xem Chi Tiết
+                            </a>
+                            <div class="btn-group">
+                                <a asp-action="Update" asp-route-id="@product.Id" class="btn btn-warning w-100">
+                                    <i class="bi bi-pencil-square"></i> Sửa
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Table View for larger screens -->
+    <div class="d-none d-lg-block">
+        <h4 class="text-primary mb-3"><i class="bi bi-table me-2"></i>Bảng danh sách sản phẩm</h4>
+        <div class="card shadow-sm mb-5">
+            <div class="table-responsive">
+                <table class="table table-hover table-striped mb-0">
+                    <thead class="table-primary">
+                        <tr>
+                            <th style="width: 80px">Ảnh</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Giá</th>
+                            <th>Danh mục</th>
+                            <th>Mô tả</th>
+                            <th style="width: 150px">Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td class="text-center">
+                                @if (!string.IsNullOrEmpty(product.ImageUrl))
+                                {
+                                    <img src="@Url.Content(product.ImageUrl)" alt="@product.Name" class="img-thumbnail" style="width: 50px; height: 50px; object-fit: cover;" />
+                                }
+                                else
+                                {
+                                    <div class="bg-light d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                                        <i class="bi bi-image text-muted"></i>
+                                    </div>
+                                }
+                            </td>
+                            <td class="align-middle fw-bold">@product.Name</td>
+                            <td class="align-middle text-danger fw-bold">@product.Price.ToString("N0") VNĐ</td>
+                            <td class="align-middle">
+                                @if (product.Category != null)
+                                {
+                                    <span class="badge bg-info text-dark">@product.Category.Name</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-secondary">Chưa phân loại</span>
+                                }
+                            </td>
+                            <td class="align-middle">
+                                @if (!string.IsNullOrEmpty(product.Description))
+                                {
+                                    @(product.Description.Length > 50 ? product.Description.Substring(0, 50) + "..." : product.Description)
+                                }
+                                else
+                                {
+                                    <span class="text-muted fst-italic">Không có mô tả</span>
+                                }
+                            </td>
+                            <td class="align-middle">
+                                <div class="btn-group btn-group-sm">
+                                    <a asp-action="Display" asp-route-id="@product.Id" class="btn btn-info">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                    <a asp-action="Update" asp-route-id="@product.Id" class="btn btn-warning">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

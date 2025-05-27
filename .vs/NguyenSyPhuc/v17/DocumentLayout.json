@@ -1,0 +1,353 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\repositories\\mockproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\repositories\\mockproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\nguyensyphuc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\nguyensyphuc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\repositories\\mockcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\repositories\\mockcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|c:\\users\\nguye\\onedrive\\desktop\\nguyensyphuc (2)\\nguyensyphuc\\nguyensyphuc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC364B3E-2BAB-4CCF-809F-B8BBD5DE5178}|NguyenSyPhuc\\NguyenSyPhuc.csproj|solutionrelative:nguyensyphuc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 285,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\appsettings.Development.json",
+              "RelativeToolTip": "NguyenSyPhuc\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T18:49:01.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\appsettings.json",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\appsettings.json",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\appsettings.json",
+              "RelativeToolTip": "NguyenSyPhuc\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T18:42:36.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NguyenSyPhuc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T08:29:31.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "NguyenSyPhuc\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T08:29:31.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Views\\Product\\Add.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "NguyenSyPhuc\\Views\\Product\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T08:29:31.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Program.cs",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Program.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Program.cs",
+              "RelativeToolTip": "NguyenSyPhuc\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T08:29:31.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MockProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Repositories\\MockProductRepository.cs",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Repositories\\MockProductRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Repositories\\MockProductRepository.cs",
+              "RelativeToolTip": "NguyenSyPhuc\\Repositories\\MockProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T08:29:31.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MockCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Repositories\\MockCategoryRepository.cs",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Repositories\\MockCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Repositories\\MockCategoryRepository.cs",
+              "RelativeToolTip": "NguyenSyPhuc\\Repositories\\MockCategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T08:29:31.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "NguyenSyPhuc\\Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T08:29:31.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "NguyenSyPhuc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T08:29:31.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "NguyenSyPhuc\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-20T08:29:31.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NguyenSyPhuc.csproj",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\NguyenSyPhuc.csproj",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\NguyenSyPhuc.csproj",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\NguyenSyPhuc.csproj",
+              "RelativeToolTip": "NguyenSyPhuc\\NguyenSyPhuc.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T08:32:18.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "NguyenSyPhuc\\Repositories\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T08:29:31.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "NguyenSyPhuc\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T08:29:31.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "NguyenSyPhuc\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T08:29:31.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Models\\Category.cs",
+              "RelativeToolTip": "NguyenSyPhuc\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T08:29:31.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Models\\Product.cs",
+              "RelativeToolTip": "NguyenSyPhuc\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T08:29:31.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Product\\Display.cshtml",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Views\\Product\\Display.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Product\\Display.cshtml",
+              "RelativeToolTip": "NguyenSyPhuc\\Views\\Product\\Display.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T08:29:31.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "NguyenSyPhuc\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-20T08:29:31.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "NguyenSyPhuc\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\NguyenSyPhuc (2)\\NguyenSyPhuc\\NguyenSyPhuc\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "NguyenSyPhuc\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T08:29:31.532Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

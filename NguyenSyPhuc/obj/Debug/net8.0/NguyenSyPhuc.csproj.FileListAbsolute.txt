@@ -1,0 +1,89 @@
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\appsettings.json
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.staticwebassets.runtime.json
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.exe
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.deps.json
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.runtimeconfig.json
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.dll
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.pdb
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.RazorAssemblyInfo.cache
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.RazorAssemblyInfo.cs
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets\msbuild.NguyenSyPhuc.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets\msbuild.build.NguyenSyPhuc.props
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NguyenSyPhuc.props
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NguyenSyPhuc.props
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\scopedcss\bundle\NguyenSyPhuc.styles.css
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\scopedcss\projectbundle\NguyenSyPhuc.bundle.scp.css
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.dll
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\refint\NguyenSyPhuc.dll
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.pdb
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\ref\NguyenSyPhuc.dll
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\appsettings.Development.json
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\appsettings.json
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.staticwebassets.runtime.json
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.exe
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.deps.json
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.runtimeconfig.json
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.dll
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.pdb
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.AssemblyInfoInputs.cache
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.AssemblyInfo.cs
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.csproj.CoreCompileInputs.cache
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.MvcApplicationPartsAssemblyInfo.cache
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.RazorAssemblyInfo.cache
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.RazorAssemblyInfo.cs
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets.build.json
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets.development.json
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets\msbuild.NguyenSyPhuc.Microsoft.AspNetCore.StaticWebAssets.props
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets\msbuild.build.NguyenSyPhuc.props
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NguyenSyPhuc.props
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NguyenSyPhuc.props
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets.pack.json
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\scopedcss\bundle\NguyenSyPhuc.styles.css
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\scopedcss\projectbundle\NguyenSyPhuc.bundle.scp.css
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.dll
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\refint\NguyenSyPhuc.dll
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.pdb
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.genruntimeconfig.cache
+C:\GitHub\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\ref\NguyenSyPhuc.dll
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\appsettings.json
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.staticwebassets.runtime.json
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.staticwebassets.endpoints.json
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.exe
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.deps.json
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.runtimeconfig.json
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.dll
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\bin\Debug\net8.0\NguyenSyPhuc.pdb
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.AssemblyInfoInputs.cache
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.AssemblyInfo.cs
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.RazorAssemblyInfo.cache
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.RazorAssemblyInfo.cs
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\scopedcss\bundle\NguyenSyPhuc.styles.css
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\scopedcss\projectbundle\NguyenSyPhuc.bundle.scp.css
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.dll
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\refint\NguyenSyPhuc.dll
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.pdb
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\NguyenSyPhuc.genruntimeconfig.cache
+C:\Users\nguye\OneDrive\Desktop\NguyenSyPhuc (2)\NguyenSyPhuc\NguyenSyPhuc\obj\Debug\net8.0\ref\NguyenSyPhuc.dll

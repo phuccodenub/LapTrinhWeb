@@ -1,0 +1,74 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model NguyenSyPhuc.Models.Product
+
+@{
+    ViewData["Title"] = "Xác nhận xóa sản phẩm";
+}
+
+<div class="container mt-4">
+    <div class="card shadow p-4">
+        <div class="text-center mb-4">
+            <h2 class="text-danger">Xác nhận xóa sản phẩm</h2>
+            <p class="text-muted">Bạn có chắc chắn muốn xóa sản phẩm này? Hành động này không thể hoàn tác.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 text-center mb-3 mb-md-0">
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img src="@Url.Content(Model.ImageUrl)" alt="@Model.Name" class="img-fluid rounded shadow-sm" style="max-height: 200px; object-fit: contain;" />
+                }
+                else
+                {
+                    <div class="bg-light p-5 rounded d-flex align-items-center justify-content-center" style="height: 200px;">
+                        <i class="fas fa-image fa-4x text-muted"></i>
+                    </div>
+                }
+            </div>
+
+            <div class="col-md-8">
+                <div class="card bg-light">
+                    <div class="card-body">
+                        <h3 class="text-primary mb-3">@Model.Name</h3>
+                        
+                        <div class="mb-3">
+                            <strong><i class="fas fa-tag me-2"></i>Danh mục:</strong>
+                            <span class="ms-2">@(Model.Category?.Name ?? "Chưa phân loại")</span>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <strong><i class="fas fa-money-bill me-2"></i>Giá:</strong>
+                            <span class="ms-2 text-danger fw-bold">@Model.Price.ToString("N0") VNĐ</span>
+                        </div>
+                        
+                        @if (!string.IsNullOrEmpty(Model.Description))
+                        {
+                            <div class="mb-3">
+                                <strong><i class="fas fa-info-circle me-2"></i>Mô tả:</strong>
+                                <p class="mt-1">@Model.Description</p>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <form asp-action="DeleteConfirmed" method="post" class="mt-4">
+            <input type="hidden" asp-for="Id" />
+            <div class="d-flex justify-content-center gap-3">
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="fas fa-arrow-left me-1"></i> Hủy bỏ
+                </a>
+                <button type="submit" class="btn btn-danger">
+                    <i class="fas fa-trash me-1"></i> Xác nhận xóa
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

@@ -1,0 +1,144 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model NguyenSyPhuc.Models.Product
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    ViewData["Title"] = "Thêm sản phẩm mới";
+}
+
+<nav aria-label="breadcrumb" class="mb-4">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+        <li class="breadcrumb-item"><a asp-controller="Product" asp-action="Index">Sản phẩm</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Thêm sản phẩm mới</li>
+    </ol>
+</nav>
+
+<div class="card shadow-lg mb-5">
+    <div class="card-header bg-primary text-white py-3">
+        <h2 class="mb-0">
+            <i class="bi bi-plus-circle me-2"></i>Thêm sản phẩm mới
+        </h2>
+    </div>
+    
+    <div class="card-body p-4">
+        <form asp-action="Add" enctype="multipart/form-data" method="post">
+            <div asp-validation-summary="All" class="alert alert-danger mb-4" role="alert"></div>
+            
+            <div class="row g-4">
+                <div class="col-md-8">
+                    <!-- Thông tin cơ bản -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-light">
+                            <h5 class="mb-0">
+                                <i class="bi bi-info-circle me-2"></i>Thông tin cơ bản
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label asp-for="Name" class="form-label fw-bold">Tên sản phẩm <span class="text-danger">*</span></label>
+                                    <input asp-for="Name" class="form-control form-control-lg" placeholder="Nhập tên sản phẩm" required />
+                                    <span asp-validation-for="Name" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label asp-for="Price" class="form-label fw-bold">Giá sản phẩm <span class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                        <input asp-for="Price" class="form-control form-control-lg" placeholder="Nhập giá sản phẩm" required />
+                                        <span class="input-group-text">VNĐ</span>
+                                    </div>
+                                    <span asp-validation-for="Price" class="text-danger"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label asp-for="CategoryId" class="form-label fw-bold">Danh mục sản phẩm</label>
+                                <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select form-select-lg">
+                                    <option value="">-- Chọn danh mục --</option>
+                                </select>
+                                <span asp-validation-for="CategoryId" class="text-danger"></span>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label asp-for="Description" class="form-label fw-bold">Mô tả sản phẩm</label>
+                                <textarea asp-for="Description" class="form-control" rows="5" placeholder="Nhập mô tả chi tiết về sản phẩm..."></textarea>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                                <div class="form-text">Mô tả chi tiết giúp người dùng hiểu rõ hơn về sản phẩm của bạn.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <!-- Hình ảnh sản phẩm -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-light">
+                            <h5 class="mb-0">
+                                <i class="bi bi-image me-2"></i>Hình ảnh sản phẩm
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">Hình ảnh đại diện</label>
+                                <input type="file" name="imageUrl" class="form-control" accept="image/*" />
+                                <div class="form-text">Chọn ảnh đại diện cho sản phẩm (JPEG, PNG).</div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">Hình ảnh bổ sung</label>
+                                <input type="file" name="imageUrls" multiple class="form-control" accept="image/*" />
+                                <div class="form-text">Bạn có thể chọn nhiều ảnh cùng lúc.</div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <div class="alert alert-info">
+                                    <i class="bi bi-info-circle-fill me-2"></i>
+                                    Hãy tải lên hình ảnh chất lượng cao để hiển thị sản phẩm tốt nhất.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-flex gap-2 mt-4">
+                <a asp-action="Index" class="btn btn-outline-secondary btn-lg">
+                    <i class="bi bi-arrow-left me-1"></i>Quay lại
+                </a>
+                <button type="submit" class="btn btn-primary btn-lg">
+                    <i class="bi bi-save me-1"></i>Lưu sản phẩm
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+    <script>
+        // Hiển thị hình ảnh trước khi tải lên
+        document.querySelector('input[name="imageUrl"]').addEventListener('change', function(e) {
+            if (e.target.files.length > 0) {
+                const preview = document.createElement('div');
+                preview.className = 'mt-3';
+                preview.innerHTML = `
+                    <p class="text-success mb-2"><i class="bi bi-check-circle me-2"></i>Đã chọn ảnh</p>
+                    <div class="preview-image border p-2 rounded text-center">
+                        <img src="${URL.createObjectURL(e.target.files[0])}" class="img-fluid" style="max-height: 200px;" />
+                    </div>
+                `;
+                
+                // Nếu đã có preview trước đó, thay thế
+                const existingPreview = this.nextElementSibling.nextElementSibling;
+                if (existingPreview && existingPreview.classList.contains('mt-3')) {
+                    existingPreview.replaceWith(preview);
+                } else {
+                    this.parentElement.appendChild(preview);
+                }
+            }
+        });
+    </script>
+}
